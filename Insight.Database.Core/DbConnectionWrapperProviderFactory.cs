@@ -46,6 +46,7 @@ namespace Insight.Database
 
             InnerFactory = (T)field.GetValue(null);
         }
+		/
 
         #region Implementation
 #if !NO_FULL_SYSTEM_DATA_IMPLEMENTATION
